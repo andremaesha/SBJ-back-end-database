@@ -1,0 +1,25 @@
+{
+  "name": "back-end-sbj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development && nodemon index.js",
+    "start": "set NODE_ENV=production && node index.js"
+  },
+  "keywords": ["hapi js", "mongodb"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "@hapi/joi": "^17.1.1",
+    "hapi-mongodb": "^9.0.3",
+    "joi-objectid": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "engines": {
+    "node": "v14.17.1"
+  }
+}
